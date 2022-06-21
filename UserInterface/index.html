@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous"> -->
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-wrap">
+            <h3 class="form-header">User Register</h3>
+            
+            <form class="user-form" id="user-form">
+                <div class="user-input-wrapper">
+                    <label for="username">User Name:</label>
+                    <input type="text" class="user-form_name" id="username">
+                </div>
+                <div class="user-input-wrapper">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" class="user-form_name" id="fullname">
+                </div>
+                <div class="user-input-wrapper">
+                    <label for="email">Email:</label>
+                    <input type="email" class="user-form_name" id="email">
+                </div>
+                <div class="user-input-wrapper">
+                    <label for="birthday">Birthday:</label>
+                    <input type="date" class="user-form_name" id="birthday">
+                </div>
+                <div class="user-input-button">
+                    <button id="save-btn" class="btn btn-primary">Save</button>
+                    <!-- <button id="test-btn" class="btn btn-primary">Test</button> -->
+                    <button id="reset-btn" class="btn btn-danger">Reset</button>
+                </div>
+            </form>
+            <div id="myModal" class="modal">
+
+                <!-- Modal content -->
+                <div class="modal-content">
+                  <span class="close">&times;</span>
+                  <p>Confirm delete user</p>
+                  <button class="btn delete-btn" id="confirm-btn">Confirm</button>
+                  <button class="btn btn-primary" id="cancel-btn">Cancel</button>
+                </div>
+              
+              </div>
+        </div>
+        
+        <table class="user-table">
+            <thead>
+                <tr>
+                <th>No</th>
+                <th>User Name</th>
+                <th>Full Name</th>
+                <th>Email</th>
+                <th>Birthday</th>
+                <th colspan="2">Action</th>
+                </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+        </table>
+    </div>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script> -->
+    <script defer src="./main.js"></script>
+  </body>
+</html>

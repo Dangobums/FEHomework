@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "id": 0,
+      "username": "goldengoose399",
+      "fullname": "Aafke Van Wolferen",
+      "email": "aafke.vanwolferen@example.co",
+      "birthday": "1957-09-04",
+      "deleted": false
+    },
+    {
+      "id": 1,
+      "username": "tinybird885",
+      "fullname": "Marrit Meuwese",
+      "email": "marrit.meuwese@example.com",
+      "birthday": "1979-12-17",
+      "deleted": false
+    },
+    {
+      "id": 2,
+      "username": "heavypeacock727",
+      "fullname": "Hedwig Girard",
+      "email": "hedwig.girard@example.com",
+      "birthday": "1948-12-12",
+      "deleted": false
+    },
+    {
+      "id": 3,
+      "username": "happyladybug342",
+      "fullname": "Alejandro Mora",
+      "email": "alejandro.mora@example.com",
+      "birthday": "1996-12-15",
+      "deleted": false
+    },
+    {
+      "id": 4,
+      "username": "crazyfish421",
+      "fullname": "Floyd Gardner",
+      "email": "floyd.gardner@example.com",
+      "birthday": "1989-05-13",
+      "deleted": false
+    },
+    {
+      "id": 5,
+      "username": "goldengoose",
+      "fullname": "Aafke Van Wolferen",
+      "email": "aafke.vanwolferen@example.com",
+      "birthday": "2020-01-06",
+      "deleted": false
+    },
+    {
+      "id": 6,
+      "username": "goldengoose39",
+      "fullname": "longcccd",
+      "email": "tranhoanglam4@gmail.com",
+      "birthday": "2001-02-01",
+      "deleted": false
+    }
+  ]
+}
