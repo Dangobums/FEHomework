@@ -4,12 +4,12 @@
     padding: 0;
   }
 .container {
-    max-width: 960px;
+    max-width: 1000px;
     margin: auto;
     display: flex;
     text-align: center;
-    justify-content: center;
-    align-content: center;
+    /* justify-content: center;
+    align-content: center; */
     flex-direction: column;
     
 }
@@ -48,7 +48,7 @@
     flex: 1;
     padding: 8px;
     border-radius: 8px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(160, 159, 159);
 }
 .user-input-wrapper input:focus {
     border-color: #666;
@@ -113,7 +113,7 @@
   }
   
 .user-table tr th:first-child {
-    border-top-left-radius: 12px;
+  border-top-left-radius: 12px;
 }
 .user-table thead tr th:last-child {
   border-top-right-radius: 12px;
